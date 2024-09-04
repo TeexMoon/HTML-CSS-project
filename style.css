@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:45%;
+}
+
+.menu{
+    padding-top:10px;
+    width:45%;
+    text-align: right;
+    margin: 20px 0;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    right: -550px;
+    top: -50px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.big-icecream{
+    position: absolute;
+    right: 700px;
+    top: -30px;
+}
+
+.social-media{
+    position: absolute;
+    left: 575px;
+    top: 100px;
+}
+
+.social-media img{
+    display: block;
+    width: 40px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 50px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.icecream-flavours{
+    position: absolute;
+    top: 375px;
+    left: -250px;
+    margin: 20px 0;
+}
